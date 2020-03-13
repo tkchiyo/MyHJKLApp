@@ -1,0 +1,97 @@
+type OVERLAY
+# Remap CapsLock -> LeftCtrl
+map key 58 CTRL_LEFT
+# Remap LeftCtrl -> Fn
+map key 29 FUNCTION
+
+# Remap Fn + X
+key H {
+        label:                              'H'
+        base:                               'h'
+        shift, capslock:                    'H'
+        ctrl, alt, meta:                    none
+        fn:                                 replace DPAD_LEFT
+}
+
+key J {
+        label:                              'J'
+        base:                               'j'
+        shift, capslock:                    'J'
+        ctrl, alt, meta:                    none
+        fn:                                 replace DPAD_DOWN
+}
+
+key K {
+        label:                              'K'
+        base:                               'k'
+        shift, capslock:                    'K'
+        ctrl, alt, meta:                    none
+        fn:                                 replace DPAD_UP
+}
+
+key L {
+        label:                              'L'
+        base:                               'l'
+        shift, capslock:                    'L'
+        ctrl, alt, meta:                    none
+        fn:                                 replace DPAD_RIGHT
+}
+
+key N {
+        label:                              'N'
+        base:                               'n'
+        shift, capslock:                    'N'
+        ctrl, alt, meta:                    none
+        fn:                                 replace MOVE_HOME
+}
+
+key PERIOD {
+        label:                              '.'
+        base:                               '.'
+        shift, capslock:                    '>'
+        ctrl, alt, meta:                    none
+        fn:                                 replace MOVE_END
+}
+
+key Y {
+        label:                              'Y'
+        base:                               'y'
+        shift, capslock:                    'Y'
+        ctrl, alt, meta:                    none
+        fn:                                 replace DEL
+}
+
+key O {
+        label:                              'O'
+        base:                               'o'
+        shift, capslock:                    'O'
+        ctrl, alt, meta:                    none
+        fn:                                 replace FORWARD_DEL
+}
+
+key U {
+        label:                              'U'
+        base:                               'u'
+        shift, capslock:                    'U'
+        ctrl, alt, meta:                    none
+        fn:                                 replace PAGE_DOWN
+}
+
+key I {
+        label:                              'I'
+        base:                               'i'
+        shift, capslock:                    'I'
+        ctrl, alt, meta:                    none
+        fn:                                 replace PAGE_UP
+}
+
+key SPACE {
+        label:                              ' '
+        base:                               ' '
+        shift, capslock:                    ' '
+        ctrl, alt, meta:                    none
+        fn:                                 replace ENTER
+}
+
+
+

@@ -1,0 +1,5 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">MyHJKLApp</string>
+<string name="keyboard_layouts_label">Caps as Ctrl plus IME Layout</string>
+<string name="keyboard_layout_japanese_label">Japanese</string>
+</resources>
